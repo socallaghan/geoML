@@ -1,4 +1,4 @@
 GeoML
 =====
 
-Geological exploration papers with Machine learning
+Papers on geological exploration with Machine learning
