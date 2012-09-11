@@ -1,0 +1,88 @@
+% genereal purpose macros here
+\newcommand{\marg}{\marginpar} % comments at the margin
+\newcommand{\todo}[1]{{\color{red}{TODO: #1}}}
+
+% Matrices and vectors 
+\newcommand{\mat}[1]{\mathbf{#1}}
+\renewcommand{\vec}[1]{ \mathbf{#1} } % math bold
+\newcommand{\vecS}[1]{\boldsymbol{ #1 }  } % this for boldsymbols
+\newcommand{\I}{\text{I}}   % Identity matrix 
+\newcommand{\matentry}[3]{{\mathrm #1_{#2,#3}}}
+\newcommand{\matcol}[2]{\mat{#1}_{\cdot,#2}}
+\newcommand{\matrow}[2]{\mat{#1}_{#2,\cdot}}
+
+ 
+% caligraphic alphabet
+\newcommand{\calA}{\mathcal{A}}
+\newcommand{\calC}{\mathcal{C}}
+\newcommand{\calD}{\mathcal{D}} 
+\newcommand{\calL}{\mathcal{L}}
+\newcommand{\calM}{\mathcal{M}}
+\newcommand{\calT}{\mathcal{T}}
+\newcommand{\calU}{\mathcal{U}}
+\newcommand{\calX}{\mathcal{X}}
+\newcommand{\calF}{\mathcal{F}}
+\newcommand{\calE}{\mathcal{E}}
+\newcommand{\calI}{\mathcal{I}}
+\newcommand{\calS}{\mathcal{S}}
+\newcommand{\calY}{\mathcal{Y}}
+\newcommand{\calO}{\mathcal{O}}
+\newcommand{\calQ}{\mathcal{Q}}
+\newcommand{\calR}{\mathcal{R}}
+\newcommand{\calV}{\mathcal{V}}
+
+
+% blackboard alphabet 
+\newcommand{\setR}{\mathbb{R}}
+\newcommand{\setE}{\mathbb{E}}
+\newcommand{\setV}{\mathbb{V}}
+\newcommand{\setI}{\mathbb{I}}
+\newcommand{\setX}{\mathbb{X}}
+\newcommand{\setT}{\mathbb{T}}
+
+
+% Useful math operators
+\DeclareMathOperator{\vect}{vec}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator*{\argmax}{argmax}                 
+\DeclareMathOperator*{\argmin}{argmin}                 
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\providecommand{\norm}[1]{\lVert#1\rVert}
+
+
+% abbreviations
+\newcommand{\etal}{et al.\xspace}
+\newcommand{\ie}{i.e.\xspace}
+\newcommand{\eg}{e.g.\xspace}
+\newcommand{\Ie}{I.e.\xspace}
+
+ 
+
+% matrix products
+\newcommand{\kron}{\otimes}
+\newcommand{\hada}{\bullet}
+
+% statistics
+\newcommand{\expectation}{\mathbb{E}}
+\newcommand{\Eb}[1]{\left\langle #1 \right\rangle} % Expectation in angle brackets
+\newcommand{\variance}{\mathbb{V}}
+\newcommand{\Normal}{\mathcal{N}}  
+
+
+% GP things
+\newcommand{\GP}{\mathcal{GP}}
+\newcommand{\kernel}{\kappa}
+
+% Other maths
+\newcommand{\deriv}[2]{\frac{\partial{#1}}{\partial{#2}}}
+\newcommand{\trace}{\mbox{ \rm tr }}
+\newcommand{\defeq}{\stackrel{\text{\tiny def}}{=}}
+\newcommand{\idx}{\mathcal{I}}
+\newcommand{\T}{\text{T}}
+\newcommand{\mth}{\mathrm{th}} 
+
+
+
+
+
+
